@@ -1,0 +1,96 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+}
+
+/* Card styling for first page */
+.card {
+    background-color: #fff;
+    width: 360px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.quote {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* Button styling */
+.btn {
+    padding: 12px 24px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #f76b8a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #fb8c8c;
+}
+
+/* Content styling for second page */
+.content {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #f76b8a;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Photo row styling */
+.photo-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.photo-row img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
